@@ -46,7 +46,7 @@ void HF_EWO_cdft(int n, int isgn, float *a, int *ip, float *w)
             HF_app_EWO_cftfsub(n, a, w);
         } else {
             HF_app_EWO_bitrv2conj(n, ip + 2, a);
-            HF_app_EWO_cftfsub(n, a, w);
+            HF_app_EWO_cftbsub(n, a, w);
         }
     } else if (n == 4) {
         HF_app_EWO_cftfsub(n, a, w);

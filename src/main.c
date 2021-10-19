@@ -35,11 +35,11 @@ void main ( void ){
 		//xin[i] = cos(f_rad);
 		//yin[i] = 0.0;
 
-		//xin[i] = 0.0;
-		//yin[i] = sin(f_rad);
-
 		xin[i] = 0.0;
-		yin[i] = cos(f_rad);
+		yin[i] = sin(f_rad);
+
+		//xin[i] = 0.0;
+		//yin[i] = cos(f_rad);
 
 		//		xin[i] = sin(f_rad);
 		//		yin[i] = sin(f_rad + 3.14159265 * 0.5);
